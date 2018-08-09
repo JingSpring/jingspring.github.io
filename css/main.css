@@ -1113,7 +1113,6 @@ pre .javascript .function {
   display: inline-block;
   padding: 0 40px;
   color: #fff;
-  background: #222;
   border-bottom: none;
 }
 .brand:hover {
@@ -1132,6 +1131,7 @@ pre .javascript .function {
   font-size: 20px;
   font-weight: normal;
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #222;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #78fcee;
+  background: #52ff52;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2670,4 +2670,5 @@ body {
   margin-top: 60px;
   padding: 60px 60px 60px 60px;
   background: #fff;
+  opacity: 0.8;
 }
