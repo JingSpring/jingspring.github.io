@@ -94,12 +94,10 @@
 <meta property="og:site_name" content="JSpring&#39;s Blog">
 <meta property="og:description" content="最近公司都比较忙，所以基本没有时间学习。总算在周末的这两天时间里找到了一点空闲，决定学点东西。之前的学习中，对Maven的学习只是简单的了解下用法，没有过多的深入理解，趁着周末这点空闲的时间，对其进一步的学习。">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/1155965-0a710000375f1efb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2018-08-12T13:47:31.737Z">
+<meta property="og:updated_time" content="2018-08-12T13:54:19.994Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="maven学习">
 <meta name="twitter:description" content="最近公司都比较忙，所以基本没有时间学习。总算在周末的这两天时间里找到了一点空闲，决定学点东西。之前的学习中，对Maven的学习只是简单的了解下用法，没有过多的深入理解，趁着周末这点空闲的时间，对其进一步的学习。">
-<meta name="twitter:image" content="https://upload-images.jianshu.io/upload_images/1155965-0a710000375f1efb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 
 
 
@@ -379,43 +377,42 @@
 </ul>
 <blockquote>
 <p>用于自动下载和关联项目依赖的jar包，将项目代码文件生成字节码文件等</p>
+</blockquote>
 <ul>
 <li>测试<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn test</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-</blockquote>
 <blockquote>
 <p>如果项目中有测试类，使用test命令后，项目会生成测试报告文件surefire-reports及测试字节码文件test-classes</p>
+</blockquote>
 <ul>
 <li>打包<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn package</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-</blockquote>
 <blockquote>
 <p>将项目打包成项目POM文件里设置的包类型文件，如war,jar等</p>
+</blockquote>
 <ul>
 <li>清理<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn -clean</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-</blockquote>
 <blockquote>
 <p>清除之前项目构建生成的文件</p>
+</blockquote>
 <ul>
 <li>安装<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn -install</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-</blockquote>
 <blockquote>
 <p>将项目依赖的包下载及安装到本地仓库，在同一个仓库中的项目，在项目的POM文件中添加了另一个项目的依赖，即可调用另一个项目中的代码</p>
+</blockquote>
 <ul>
 <li>自动构建目录骨架<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">//第一种方法</span><br><span class="line">mvn archetype:generate</span><br><span class="line">//第二种方法</span><br><span class="line">mvn archetype:generate -DgroupId=组织名（公司的网站+项目名） -DartifactId=项目名/项目模块名 -Dversion=版本号(0.0.1-SNAPSHOT)</span><br><span class="line">-Dpackage=代码所在的包名</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
-</blockquote>
 <blockquote>
 <p>新建一个文件目录，在该文件目录下执行此命令,再根据提示输入相关的信息，即可自动构建出一个maven项目的基本骨架</p>
 </blockquote>
-<p><img src="https://upload-images.jianshu.io/upload_images/1155965-0a710000375f1efb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="maven.png"></p>
 
       
     </div>
